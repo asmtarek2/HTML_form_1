@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+font-family: 'Poppins', sans-serif;
+}
+
+.bg {
+    background-image: url("../images/cycle.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 100px 0px;
+    background-attachment: fixed;
+}
+
+.heading {
+}
+
+.heading h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 94px;
+}
+
+.contact_form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_info {
+    width: 48%;
+}
+
+.contact_info h3 {
+    color: rgb(255, 255, 255);
+    font-size: 31px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.info_box {
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-bottom: 36px;
+}
+
+.icon {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    width: 35px;
+}
+
+.info {
+}
+
+.info h4 {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.info p {
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.main_form {
+    width: 48%;
+}
+
+.form {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form h2 {
+    margin-bottom: 18px;
+}
+
+.form form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 0px 15px 13px;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 4px;
+}
+
+.form form input[type="submit"] {
+    width: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 137, 255);
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.form form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 0px 15px 13px;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 4px;
+}
+
+.form form input:focus, .form form textarea:focus {
+    outline: none;
+    box-shadow: 0px 1px 3px 0px #333333b3;
+}
+
+.form form input:focus, .form form textarea{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.form form input[type="submit"]:hover{
+    background-color: rgb(36, 16, 255);
+}
